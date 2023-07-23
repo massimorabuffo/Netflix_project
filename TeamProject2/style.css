@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "Netflix";
+    src: url(../TeamProject2/assets/NetflixSans_W_Rg.woff2) format("woff2");
+}
+
+html {
+    font-family: "Netflix";
+}
