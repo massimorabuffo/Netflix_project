@@ -5,4 +5,70 @@
 
 html {
     font-family: "Netflix";
+    -webkit-text-size-adjust: 100%;
+    background-color: black;
 }
+
+.container {
+padding: 30px;
+display: inline-flex;
+}
+
+.container-h2{
+    color: white;
+    display: block;
+    margin: 57px;
+    display: block;
+    position: relative;
+    top: 0px;
+    padding-left: 50px;
+}
+
+h2 {
+    font-size: 60px;
+    color: white;
+    font-weight: bold;
+    font-family: "Netflix";
+}
+
+p {
+    font-size: 26px;
+    padding: 10px;
+    display: flex;
+    position: relative;
+    bottom: 40px;
+}
+
+.animazione {
+    color: white;
+    display: block;
+    margin: 57px;
+    display: block;
+    position: relative;
+    top: 20px;
+}
+
+.divider {
+    width: 100%;
+    height: 0.5rem;
+    position: absolute;
+    bottom: -0.5rem;
+    background-color: rgb(35,35,35);
+}
+
+.divider {
+    width: 100%;
+    height: 0.5rem;
+    position: absolute;
+    bottom: -0.5rem;
+    background-color: rgb(35,35,35);
+}
+
+
+
+
+
+
+
+
+
