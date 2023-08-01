@@ -39,34 +39,58 @@ ul {
     list-style: none;
 }
 
-#globe {
-    max-width: 1rem;
+.nav-r{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
 }
 
-#selectLang {
+.nav-r img{
+    position: relative;
+    left: 47px;
+    top: 4px;
+    width: 25px;
+    height: 25px;
+}
+
+.footer-r{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.footer-r img{
+    position: relative;
+    left: 47px;
+    top: 4px;
+    width: 25px;
+    height: 25px;
+}
+
+#language{
     background: transparent;
-    color: inherit;
-    appearance: none;
-
+    color: white;
+    height: 33px;
+    width: 120px;
+    text-align: right;
+    border-radius: 5px;
+    font-size: large;
+    padding: 3px;
+    border: 1px solid rgba(128, 128, 128, 0.677);
 }
 
-footer form button {
-    height: 60px;
-    padding-bottom: 10px;
-    background-color: red;
-    color: inherit;
-    border-radius: 3px;
-    border: none;
-    font-family: "Netflix-bold";
-    font-size: 25px;
+.fine-footer {
+    margin-left: 45px;
 }
 
-footer form button:active {
-    transform: scale(0.95);
+.domande-footer {
+    margin-left: 40px;
 }
 
-footer form button:hover {
-    background-color: rgb(192, 4, 4);
+footer form {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 footer form input {
@@ -75,15 +99,41 @@ footer form input {
     border: 1px solid rgba(255, 255, 255, 0.568);
     background-color: #0f0f0f;
     border-radius: 3px;
-}
-
-footer form button img {
-    width: 25px;
+    color: white;
+    padding: 0 15px;
 }
 
 footer input::placeholder {
     color: hsla(0, 0%, 100%, 0.715);
 }
+
+footer form button{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+footer form button{
+    cursor: pointer;
+    padding: 12px 24px;
+    background-color: rgb(229, 9, 20);;
+    color: white;
+    border-radius: 5px;
+    font-size: x-large;
+    border: none;
+    font-weight: bold;
+}
+
+footer form button:hover{
+    background-color: rgb(211, 0, 0);
+    transition: 0.3s;
+}
+
+footer form button:active {
+    transform: scale(95%);
+    transition: 0.3s;
+}
+
 
 input[type="checkbox"] {
     display: none;
@@ -112,11 +162,13 @@ input[type="checkbox"] {
     transition: max-height 0.2s ease-out;
     margin-top: 3px;
     background-color: #3c3c3c;
-    overflow: auto; 
+    overflow: auto;
+    padding: 0 15px; 
 }
 
 input[type="checkbox"]:checked+.accordion-title+.accordion-content {
     max-height: 205px;
+    padding: 15px; 
 }
 
 .link-grid>ul {
