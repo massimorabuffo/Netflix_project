@@ -5,9 +5,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DevelhopeFlix</title>
     <link rel="icon" type="image/x-icon" href="./favicon.ico">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+  <header>
+    <nav class="header-nav">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg" alt="Netflix logo">
+      <div class="nav-r">
+        <img src="./assets/language_white_24dp.svg" alt="language">
+        <select name="language" id="language" >
+          <option value="Italian">Italiano</option>
+          <option value="English">English</option>
+        </select>
+        <button>Accedi</button>
+      </div>
+    </nav>
+    <div class="center-wrapper">
+      <section class="center">
+        <h1>Film, serie TV e tanto altro, senza limiti</h1>
+        <p>Guarda ciò che vuoi ovunque. Disdici quando vuoi.</p>
+        <h3>Vuoi guardare Netflix? Inserisci l'indirizzo email per abbonarti o riattivare il tuo abbonamento.</h3>
+        <div class="email-form">
+          <div class="email-wrapper">
+            <div class="email-form">
+              <div class="email-and-error">
+                <input type="email" id="email">
+                <label for="email">Indirizzo email</label>
+                <div class="error">
+                  <img src="./assets/cancel_white_24dp.svg" alt="cancel">
+                  <p>L'indirizzo email è obbligatorio.</p>
+                </div>
+              </div>
+              <div>
+                <button>Inizia <img src="./assets/arrow_forward_ios_white_24dp.svg" alt="arrow"></button>
+              </div>
+            </div>
+          </div>
+        </section>
+    </div>
+    <section class="banner">
+      <img src="./assets/popcorn.svg" alt="popcorn">
+      <div class="banner-text-wrapper">
+        <p class="banner-1">Tutto ciò che ami di Netflix a soli 5,49 €.</p>
+        <p class="banner-2">Scegli il piano Standard con pubblicità.</p>
+        <a href="#">Scopri di più <img src="./assets/arrow_forward_ios_white_24dp.svg" alt="arrow"></a>
+      </div> 
+    </section>
+  </div>
+  </header>
 </body>
 </html>
