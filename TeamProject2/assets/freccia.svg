@@ -2,12 +2,13 @@
 <svg
    viewBox="0 0 24 24"
    fill="none"
-   class="default-ltr-cache-v1ob21 e164gv2o4"
-   data-name="Plus"
-   alt=""
+   data-mirrorinrtl="true"
+   class="default-ltr-cache-0 e1mhci4z1"
+   data-name="ChevronRight"
+   aria-hidden="true"
    version="1.1"
    id="svg58"
-   sodipodi:docname="più.svg"
+   sodipodi:docname="Netflix Italia - Guarda serie TV online, Guarda film online-3.svg"
    inkscape:version="1.2.2 (b0a84865, 2022-12-01)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -37,7 +38,7 @@
   <path
      fill-rule="evenodd"
      clip-rule="evenodd"
-     d="M11 11V2H13V11H22V13H13V22H11V13H2V11H11Z"
+     d="M15.5859 12L8.29303 19.2928L9.70725 20.7071L17.7072 12.7071C17.8948 12.5195 18.0001 12.2652 18.0001 12C18.0001 11.7347 17.8948 11.4804 17.7072 11.2928L9.70724 3.29285L8.29303 4.70706L15.5859 12Z"
      fill="currentColor"
      id="path56"
      style="fill:#ffffff" />
