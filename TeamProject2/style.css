@@ -179,7 +179,7 @@ input[type="checkbox"]:checked+.accordion-title+.accordion-content {
 
 .accordion-plus {
     width: 20px;
-    transition: transform 0.3s ease;
+    transition: transform 0.4s ease;
     user-select: none;
 }
 
