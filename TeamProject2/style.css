@@ -140,8 +140,8 @@ input[type="checkbox"] {
 }
 
 .accordion {
-    margin-left: 3em;
-    margin-right: 3em;
+    margin-left: 10em;
+    margin-right: 10em;
 }
 
 .accordion-item {
