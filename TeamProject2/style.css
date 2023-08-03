@@ -1,838 +1,817 @@
 @font-face {
-    font-family: "NetflixSans_W_Bd.woff2";
-    src: url("./assets/NetflixSans_W_Bd.woff2");
+  font-family: "NetflixSans_W_Bd.woff2";
+  src: url("./assets/NetflixSans_W_Bd.woff2");
 }
 
 @font-face {
-    font-family: "NetflixSans_W_Md.woff2";
-    src: url("./assets/NetflixSans_W_Md.woff2");
+  font-family: "NetflixSans_W_Md.woff2";
+  src: url("./assets/NetflixSans_W_Md.woff2");
 }
 
 @font-face {
-    font-family: "NetflixSans_W_Rg.woff2";
-    src: url("./assets/NetflixSans_W_Rg.woff2");
+  font-family: "NetflixSans_W_Rg.woff2";
+  src: url("./assets/NetflixSans_W_Rg.woff2");
 }
 
 header {
-    background-image: url("./assets/sfondo.png");
-    background-position: center center;
-    background-size: auto;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 94vh;
+  background-image: url("./assets/sfondo.png");
+  background-position: center center;
+  background-size: auto;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 94vh;
 }
 
 .header-nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    margin-left: 150px;
-    margin-right: 150px;
-    padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 150px;
+  margin-right: 150px;
+  padding-top: 20px;
 }
 
 .header-nav img {
-    width: 148px;
-    height: 40px;
+  width: 148px;
+  height: 40px;
 }
 
 .nav-r {
-    display: flex;
-    flex-direction: row;
-    gap: 15px;
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
 }
 
 .nav-r img {
-    position: relative;
-    left: 47px;
-    top: 4px;
-    width: 25px;
-    height: 25px;
+  position: relative;
+  left: 47px;
+  top: 4px;
+  width: 25px;
+  height: 25px;
 }
 
 #language-header {
-    background: transparent;
-    color: white;
-    height: 33px;
-    width: 120px;
-    text-align: right;
-    border-radius: 5px;
-    font-size: large;
-    padding: 3px;
-    border: 1px solid rgba(128, 128, 128, 0.677);
+  background: transparent;
+  color: white;
+  height: 33px;
+  width: 120px;
+  text-align: right;
+  border-radius: 5px;
+  font-size: large;
+  padding: 3px;
+  border: 1px solid rgba(128, 128, 128, 0.677);
 }
 
 .nav-r button {
-    cursor: pointer;
-    background-color: rgb(229, 9, 20);
-    color: white;
-    border-radius: 5px;
-    font-size: medium;
-    text-align: center;
-    height: 33px;
-    width: 80px;
-    border: none;
-    font-weight: bold;
+  cursor: pointer;
+  background-color: rgb(229, 9, 20);
+  color: white;
+  border-radius: 5px;
+  font-size: medium;
+  text-align: center;
+  height: 33px;
+  width: 80px;
+  border: none;
+  font-weight: bold;
 }
 
 .nav-r button:hover {
-    background-color: rgb(211, 0, 0);
-    transition: 0.3s;
+  background-color: rgb(211, 0, 0);
+  transition: 0.3s;
 }
 
 .center-wrapper {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .center h1,
 .center p,
 .center h3,
 .banner p {
-    color: white;
+  color: white;
 }
 
 .center h1 {
-    font-weight: 700;
-    font-size: 2rem;
-    font-family: "NetflixSans_W_Bd.woff2";
+  font-weight: 700;
+  font-size: 2rem;
+  font-family: "NetflixSans_W_Bd.woff2";
 }
 
 .center p,
 .center h3 {
-    font-weight: 400;
-    font-family: "NetflixSans_W_Rg.woff2";
+  font-weight: 400;
+  font-family: "NetflixSans_W_Rg.woff2";
 }
 
 .center {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    margin-top: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin-top: 180px;
 }
 
 .center h1 {
-    display: flex;
-    justify-content: center;
-    font-size: 3rem;
-    /* margin: 15px; */
+  display: flex;
+  justify-content: center;
+  font-size: 3rem;
+  /* margin: 15px; */
 }
 
 .center p {
-    display: flex;
-    justify-content: center;
-    font-size: 1.5rem;
-    font-weight: 400;
-    /* margin: 10px; */
+  display: flex;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: 400;
+  /* margin: 10px; */
 }
 
 .center h3 {
-    font-size: 1.25rem;
-    line-height: 1.875rem;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
 }
 
 .email-form {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    position: relative;
-    align-content: center;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  position: relative;
+  align-content: center;
 }
 
 .email-form p {
-    font-size: 20px;
-    margin-top: 100px;
-    margin-bottom: -30px;
+  font-size: 20px;
+  margin-top: 100px;
+  margin-bottom: -30px;
 }
 
 .email-form label {
-    color: rgba(255, 255, 255, 0.8);
-    position: absolute;
-    top: 14px;
-    left: 10px;
-    transition: .2s ease-in-out;
-    padding-top: 3px;
+  color: rgba(255, 255, 255, 0.8);
+  position: absolute;
+  top: 14px;
+  left: 10px;
+  transition: 0.2s ease-in-out;
+  padding-top: 3px;
 }
 
-#email:focus+label,
-#email:invalid~label {
-    top: 1px;
-    font-size: .75em;
-    color: rgba(255, 255, 255, 0.8);
+#email:focus + label,
+#email:invalid ~ label {
+  top: 1px;
+  font-size: 0.75em;
+  color: rgba(255, 255, 255, 0.8);
 }
 
 #email:invalid {
-    border: 1px solid red;
+  border: 1px solid red;
 }
 
-#email:invalid~.error p {
-    color: red;
+#email:invalid ~ .error p {
+  color: red;
 }
 
-#email:invalid~.error img {
-    content-visibility: visible;
+#email:invalid ~ .error img {
+  content-visibility: visible;
 }
 
 .email-form button {
-    display: flex;
-    flex-direction: row;
-    gap: 5px;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
 }
 
 #email {
-    position: relative;
-    width: 430px;
-    height: 50px;
-    border: 1px solid white;
-    background: transparent;
-    color: white;
-    border-radius: 5px;
-    font-size: large;
-    padding-left: 10px;
+  position: relative;
+  width: 430px;
+  height: 50px;
+  border: 1px solid white;
+  background: transparent;
+  color: white;
+  border-radius: 5px;
+  font-size: large;
+  padding-left: 10px;
 }
 
 .error {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .error img {
-    filter: brightness(0%) saturate(100%) invert(23%) sepia(91%) saturate(6734%) hue-rotate(356deg) brightness(102%) contrast(123%);
-    width: 20px;
-    height: 20px;
-    position: relative;
-    top: 6px;
-    left: 5px;
-    margin-bottom: 0;
-    content-visibility: hidden;
+  filter: brightness(0%) saturate(100%) invert(23%) sepia(91%) saturate(6734%)
+    hue-rotate(356deg) brightness(102%) contrast(123%);
+  width: 20px;
+  height: 20px;
+  position: relative;
+  top: 6px;
+  left: 5px;
+  margin-bottom: 0;
+  content-visibility: hidden;
 }
 
 .error p {
-    fill: currentcolor;
-    font-size: 0.8125rem;
-    margin-top: 0.45rem;
-    color: transparent;
-    margin-bottom: 0;
+  fill: currentcolor;
+  font-size: 0.8125rem;
+  margin-top: 0.45rem;
+  color: transparent;
+  margin-bottom: 0;
 }
 
 .center button {
-    cursor: pointer;
-    padding: 12px 24px;
-    background-color: rgb(229, 9, 20);
-    ;
-    color: white;
-    border-radius: 5px;
-    font-size: x-large;
-    border: none;
-    font-weight: bold;
+  cursor: pointer;
+  padding: 12px 24px;
+  background-color: rgb(229, 9, 20);
+  color: white;
+  border-radius: 5px;
+  font-size: x-large;
+  border: none;
+  font-weight: bold;
 }
 
 .center button:hover {
-    background-color: rgb(211, 0, 0);
-    transition: 0.3s;
+  background-color: rgb(211, 0, 0);
+  transition: 0.3s;
 }
 
 .banner {
-    height: 90px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 30px;
-    background: rgb(14, 27, 79);
-    background: radial-gradient(51.39% 511.66% at 47.68% -217.91%, #ff9900 0%, #e50914 17.27%, #0e1b4f 79.44%, #000413 100%);
-    box-shadow: 0px -8px 25px rgba(0, 0, 0, 0.5);
-    color: white;
-    border-radius: 4px;
-    padding: 22px;
-    position: relative;
-    top: 90px;
-    margin-left: 80px;
-    margin-right: 80px;
-    font-family: "NetflixSans_W_Bd.woff2";
-    font-weight: 500;
+  height: 90px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
+  background: rgb(14, 27, 79);
+  background: radial-gradient(
+    51.39% 511.66% at 47.68% -217.91%,
+    #ff9900 0%,
+    #e50914 17.27%,
+    #0e1b4f 79.44%,
+    #000413 100%
+  );
+  box-shadow: 0px -8px 25px rgba(0, 0, 0, 0.5);
+  color: white;
+  border-radius: 4px;
+  padding: 22px;
+  position: relative;
+  top: 90px;
+  margin-left: 80px;
+  margin-right: 80px;
+  font-family: "NetflixSans_W_Bd.woff2";
+  font-weight: 500;
 }
 
 .banner img {
-    width: 106px;
-    height: 110px;
+  width: 106px;
+  height: 110px;
 }
 
 .banner-text-wrapper {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .banner-text-wrapper a {
-    color: #448ef4;
-    display: flex;
-    flex-direction: row;
-    gap: 8px;
+  color: #448ef4;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
 }
 
 .banner-text-wrapper a img {
-    width: 24px;
-    height: 24px;
-    filter: brightness(0) saturate(100%) invert(43%) sepia(100%) saturate(581%) hue-rotate(184deg) brightness(99%) contrast(93%);
+  width: 24px;
+  height: 24px;
+  filter: brightness(0) saturate(100%) invert(43%) sepia(100%) saturate(581%)
+    hue-rotate(184deg) brightness(99%) contrast(93%);
 }
 
 .banner-1 {
-    font-family: "NetflixSans_W_Md.woff2";
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 30px;
-    margin: 0;
+  font-family: "NetflixSans_W_Md.woff2";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  margin: 0;
 }
 
 .banner-2 {
-    font-family: "NetflixSans_W_Rg.woff2";
-    font-size: 16px;
-    line-height: 24px;
-    margin-top: 4px;
-    margin-bottom: 8px;
+  font-family: "NetflixSans_W_Rg.woff2";
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 4px;
+  margin-bottom: 8px;
 }
 
 .contenitore-0 {
-    padding: 20px;
-    display: inline-flex;
-    max-width: 100%;
-    min-height: auto;
-    padding: 1rem 0;
+  padding: 20px;
+  display: inline-flex;
+  max-width: 100%;
+  min-height: auto;
+  padding: 1rem 0;
 }
 
 .intestazione {
-    color: white;
-    display: block;
-    margin: 57px;
-    display: block;
-    position: relative;
-    top: 0px;
-    padding-left: 50px;
+  color: white;
+  display: block;
+  margin: 57px;
+  display: block;
+  position: relative;
+  top: 0px;
+  padding-left: 50px;
 }
 
 h2 {
-    font-size: 60px;
-    color: white;
-    font-weight: bold;
-    font-family: "Netflix";
+  font-size: 60px;
+  color: white;
+  font-weight: bold;
+  font-family: "Netflix";
 }
 
 p {
-    font-size: 26px;
-    padding: 10px;
-    display: flex;
-    position: relative;
-    bottom: 40px;
+  font-size: 26px;
+  padding: 10px;
+  display: flex;
+  position: relative;
+  bottom: 40px;
 }
 
 .contenitore-10 {
-    position: relative;
-    right: 50px;
-    -webkit-flex-basis: 50%;
-    -ms-flex-preferred-size: 50%;
-    flex-basis: 50%;
-    padding: 0;
-    z-index: 1;
+  position: relative;
+  right: 50px;
+  -webkit-flex-basis: 50%;
+  -ms-flex-preferred-size: 50%;
+  flex-basis: 50%;
+  padding: 0;
+  z-index: 1;
 }
 
-
 .set-tv {
-    z-index: -1;
-    overflow: hidden;
-    width: 100%;
-    height: 100%;
-    max-width: 90%;
-    max-height: 60%;
-    position: absolute;
-    top: 49%;
-    left: 58%;
-    -webkit-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+  z-index: -1;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  max-width: 90%;
+  max-height: 60%;
+  position: absolute;
+  top: 49%;
+  left: 58%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .barra {
-    border: 5px rgb(35, 35, 35) solid;
-    width: 100%;
-
+  border: 5px rgb(35, 35, 35) solid;
+  width: 100%;
 }
-
 
 .contenitore-20 {
-    position: relative;
-    -webkit-flex-basis: 50%;
-    -ms-flex-preferred-size: 50%;
-    flex-basis: 50%;
-    padding: 0;
-    z-index: 1;
+  position: relative;
+  -webkit-flex-basis: 50%;
+  -ms-flex-preferred-size: 50%;
+  flex-basis: 50%;
+  padding: 0;
+  z-index: 1;
 }
-
 
 .set-tablet {
-    z-index: -1;
-    overflow: hidden;
-    width: 100%;
-    height: 100%;
-    max-width: 63%;
-    max-height: 55%;
-    position: absolute;
-    top: 38%;
-    left: 48%;
-    -webkit-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+  z-index: -1;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  max-width: 63%;
+  max-height: 55%;
+  position: absolute;
+  top: 38%;
+  left: 48%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
-
-
 
 .contenitore-30 {
-    position: relative;
-    right: 50px;
+  position: relative;
+  right: 50px;
 }
 
-
 .contenitore-cellulare {
-    overflow: hidden;
-    position: absolute;
-    left: 50%;
-    bottom: 8%;
-    transform: translateX(-50%);
-    background: rgb(0, 0, 0);
-    display: flex;
-    align-items: center;
-    width: 300px;
-    height: 100px;
-    padding: 0.25rem 0.65rem;
-    border: 2px solid rgba(128, 128, 128, 0.7);
-    border-radius: 0.75rem;
+  overflow: hidden;
+  position: absolute;
+  left: 50%;
+  bottom: 8%;
+  transform: translateX(-50%);
+  background: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  width: 300px;
+  height: 100px;
+  padding: 0.25rem 0.65rem;
+  border: 2px solid rgba(128, 128, 128, 0.7);
+  border-radius: 0.75rem;
 }
 
 .stranger {
-    width: 50px;
-
+  width: 50px;
 }
 
 .photo-stranger {
-    width: 50px;
+  width: 50px;
 }
 
 .stranger-things {
-    text-align: left;
-    padding-top: 48px;
-    position: relative;
-    left: 5px;
-
+  text-align: left;
+  padding-top: 48px;
+  position: relative;
+  left: 5px;
 }
 
-
-
 h4 {
-    position: relative;
-    color: rgb(255, 255, 255);
-    font-weight: 500;
-    position: relative;
-    left: 11px;
-    bottom: 5px;
+  position: relative;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  position: relative;
+  left: 11px;
+  bottom: 5px;
 }
 
 #download {
-    font-size: 15px;
-    color: #0071eb;
-
+  font-size: 15px;
+  color: #0071eb;
 }
 
 .icon {
-
-    width: 3rem;
-    height: 3rem;
-    display: block;
-    background: url(https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif) center center no-repeat;
-    -webkit-background-size: 100%;
-    background-size: 100%;
-    position: relative;
-    left: 40px;
+  width: 3rem;
+  height: 3rem;
+  display: block;
+  background: url(https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif)
+    center center no-repeat;
+  -webkit-background-size: 100%;
+  background-size: 100%;
+  position: relative;
+  left: 40px;
 }
 @font-face {
-    font-family: "Netflix-Main";
-    src: url(./assets/NetflixSans_W_Bd.woff2) format("woff2");
+  font-family: "Netflix-Main";
+  src: url(./assets/NetflixSans_W_Bd.woff2) format("woff2");
 }
 
 .contenitore-0 {
-    padding: 20px;
-    display: inline-flex;
-    max-width: 100%;
-    min-height: auto;
-    padding: 1rem 0;
+  padding: 20px;
+  display: inline-flex;
+  max-width: 100%;
+  min-height: auto;
+  padding: 1rem 0;
 }
 
 .intestazione {
-    color: white;
-    display: block;
-    margin: 57px;
-    display: block;
-    position: relative;
-    top: 0px;
-    padding-left: 50px;
+  color: white;
+  display: block;
+  margin: 57px;
+  display: block;
+  position: relative;
+  top: 0px;
+  padding-left: 50px;
 }
 
 h2 {
-    font-size: 60px;
-    color: white;
-    font-weight: bold;
-    font-family: "Netflix-Main";
+  font-size: 60px;
+  color: white;
+  font-weight: bold;
+  font-family: "Netflix-Main";
 }
 
 p {
-    font-size: 26px;
-    padding: 10px;
-    display: flex;
-    position: relative;
-    bottom: 40px;
+  font-size: 26px;
+  padding: 10px;
+  display: flex;
+  position: relative;
+  bottom: 40px;
 }
 
 .contenitore-10 {
-    position: relative;
-    right: 50px;
-    -webkit-flex-basis: 50%;
-    -ms-flex-preferred-size: 50%;
-    flex-basis: 50%;
-    padding: 0;
-    z-index: 1;
+  position: relative;
+  right: 50px;
+  -webkit-flex-basis: 50%;
+  -ms-flex-preferred-size: 50%;
+  flex-basis: 50%;
+  padding: 0;
+  z-index: 1;
 }
 
-
 .set-tv {
-    z-index: -1;
-    overflow: hidden;
-    width: 100%;
-    height: 100%;
-    max-width: 90%;
-    max-height: 60%;
-    position: absolute;
-    top: 49%;
-    left: 58%;
-    -webkit-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+  z-index: -1;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  max-width: 90%;
+  max-height: 60%;
+  position: absolute;
+  top: 49%;
+  left: 58%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .barra {
-    border: 5px rgb(35, 35, 35) solid;
-    width: 100%;
-    
+  border: 5px rgb(35, 35, 35) solid;
+  width: 100%;
 }
-
 
 .contenitore-20 {
-    position: relative;
-    -webkit-flex-basis: 50%;
-    -ms-flex-preferred-size: 50%;
-    flex-basis: 50%;
-    padding: 0;
-    z-index: 1;
+  position: relative;
+  -webkit-flex-basis: 50%;
+  -ms-flex-preferred-size: 50%;
+  flex-basis: 50%;
+  padding: 0;
+  z-index: 1;
 }
-
 
 .set-tablet {
-    z-index: -1;
-    overflow: hidden;
-    width: 100%;
-    height: 100%;
-    max-width: 63%;
-    max-height: 55%;
-    position: absolute;
-    top: 38%;
-    left: 48%;
-    -webkit-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+  z-index: -1;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  max-width: 63%;
+  max-height: 55%;
+  position: absolute;
+  top: 38%;
+  left: 48%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
-
-
 
 .contenitore-30 {
-    position: relative;
-    right: 50px;
+  position: relative;
+  right: 50px;
 }
 
-
 .contenitore-cellulare {
-    overflow: hidden;
-    position: absolute;
-    left: 50%;
-    bottom: 8%;
-    transform: translateX(-50%);
-    background: rgb(0,0,0);
-    display: flex;
-    align-items: center;
-    width: 300px;
-    height: 100px;
-    padding: 0.25rem 0.65rem;
-    border: 2px solid rgba(128,128,128,0.7);
-    border-radius: 0.75rem;
+  overflow: hidden;
+  position: absolute;
+  left: 50%;
+  bottom: 8%;
+  transform: translateX(-50%);
+  background: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  width: 300px;
+  height: 100px;
+  padding: 0.25rem 0.65rem;
+  border: 2px solid rgba(128, 128, 128, 0.7);
+  border-radius: 0.75rem;
 }
 
 .stranger {
-    width: 50px;
-    
+  width: 50px;
 }
 
 .photo-stranger {
-    width: 50px;
+  width: 50px;
 }
 
 .stranger-things {
-    text-align: left;
-    padding-top: 48px;
-    position: relative;
-    left: 5px;
-    
+  text-align: left;
+  padding-top: 48px;
+  position: relative;
+  left: 5px;
 }
-
-
 
 h4 {
-    position: relative;
-    color: rgb(255,255,255);
-    font-weight: 500;
-    position: relative;
-    left: 11px;
-    bottom: 5px;
+  position: relative;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  position: relative;
+  left: 11px;
+  bottom: 5px;
 }
 
-#download{
-    font-size: 15px;
-    color: #0071eb;
-   
+#download {
+  font-size: 15px;
+  color: #0071eb;
 }
 
-.icon{
-    
-    width: 3rem;
-    height: 3rem;
-    display: block;
-    background: url(https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif) center center no-repeat;
-    -webkit-background-size: 100%;
-    background-size: 100%;
-    position: relative;
-    left: 40px;
-    
-    
+.icon {
+  width: 3rem;
+  height: 3rem;
+  display: block;
+  background: url(https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif)
+    center center no-repeat;
+  -webkit-background-size: 100%;
+  background-size: 100%;
+  position: relative;
+  left: 40px;
 }
 
 @font-face {
-    font-family: "Netflix";
-    src: url(../TeamProject2/assets/NetflixSans_W_Rg.woff2) format("woff2");
+  font-family: "Netflix";
+  src: url(../TeamProject2/assets/NetflixSans_W_Rg.woff2) format("woff2");
 }
 
 @font-face {
-    font-family: "Netflix-bold";
-    src: url(../TeamProject2/assets/NetflixSans_W_Bd.woff2) format("woff2");
+  font-family: "Netflix-bold";
+  src: url(../TeamProject2/assets/NetflixSans_W_Bd.woff2) format("woff2");
 }
 
 html {
-    font-family: "Netflix";
+  font-family: "Netflix";
 }
 
 body {
-    color: white;
-    background: black;
+  color: white;
+  background: black;
 }
 
-footer div>h2 {
-    font-size: 45px;
-    font-family: "Netflix-bold";
-    margin-block-start: 0.83em;
-    margin-block-end: 0.83em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+footer div > h2 {
+  font-size: 45px;
+  font-family: "Netflix-bold";
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
-
 
 #telNum {
-    color: inherit;
+  color: inherit;
 }
 
 .footerLink {
-    color: inherit;
+  color: inherit;
 }
 
 ul {
-    list-style: none;
+  list-style: none;
 }
 
-.nav-r{
-    display: flex;
-    flex-direction: row;
-    gap: 15px;
+.nav-r {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
 }
 
-.nav-r img{
-    position: relative;
-    left: 47px;
-    top: 4px;
-    width: 25px;
-    height: 25px;
+.nav-r img {
+  position: relative;
+  left: 47px;
+  top: 4px;
+  width: 25px;
+  height: 25px;
 }
 
-.footer-r{
-    display: flex;
-    flex-direction: row;
-    gap: 15px;
+.footer-r {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
 }
 
-.footer-r img{
-    position: relative;
-    left: 47px;
-    top: 4px;
-    width: 25px;
-    height: 25px;
-    margin-left: 7em;
-    margin-bottom: 2em;
+.footer-r img {
+  position: relative;
+  left: 47px;
+  top: 4px;
+  width: 25px;
+  height: 25px;
+  margin-left: 7em;
+  margin-bottom: 2em;
 }
 
-#language-footer{
-    background: transparent;
-    color: white;
-    height: 33px;
-    width: 120px;
-    text-align: right;
-    border-radius: 5px;
-    font-size: large;
-    padding: 3px;
-    border: 1px solid rgba(128, 128, 128, 0.677);
+#language-footer {
+  background: transparent;
+  color: white;
+  height: 33px;
+  width: 120px;
+  text-align: right;
+  border-radius: 5px;
+  font-size: large;
+  padding: 3px;
+  border: 1px solid rgba(128, 128, 128, 0.677);
 }
 
 .fine-footer {
-    margin-left: 8em;
-    font-size: 18px;
+  margin-left: 8em;
+  font-size: 18px;
 }
 
 .domande-footer {
-    font-size: 18px;
-    margin-left: 8em;
-    margin-top: 100px;
-    margin-bottom: -50px;
+  font-size: 18px;
+  margin-left: 8em;
+  margin-top: 100px;
+  margin-bottom: -50px;
 }
 
 footer form {
-    display: flex;
-    align-items: center;
-    gap: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 footer form input {
-    height: 60px;
-    width: 400px;
-    border: 1px solid rgba(255, 255, 255, 0.568);
-    background-color: #0f0f0f;
-    border-radius: 3px;
-    color: white;
-    padding: 0 15px;
+  height: 60px;
+  width: 400px;
+  border: 1px solid rgba(255, 255, 255, 0.568);
+  background-color: #0f0f0f;
+  border-radius: 3px;
+  color: white;
+  padding: 0 15px;
 }
 
 footer input::placeholder {
-    color: hsla(0, 0%, 100%, 0.715);
+  color: hsla(0, 0%, 100%, 0.715);
 }
 
-footer form button{
-    display: flex;
-    flex-direction: row;
-    gap: 5px;
+footer form button {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
 }
 
-footer form button{
-    cursor: pointer;
-    padding: 12px 24px;
-    background-color: rgb(229, 9, 20);;
-    color: white;
-    border-radius: 5px;
-    font-size: x-large;
-    border: none;
-    font-weight: bold;
+footer form button {
+  cursor: pointer;
+  padding: 12px 24px;
+  background-color: rgb(229, 9, 20);
+  color: white;
+  border-radius: 5px;
+  font-size: x-large;
+  border: none;
+  font-weight: bold;
 }
 
-footer form button:hover{
-    background-color: rgb(211, 0, 0);
-    transition: 0.3s;
+footer form button:hover {
+  background-color: rgb(211, 0, 0);
+  transition: 0.3s;
 }
 
 footer form button:active {
-    transform: scale(95%);
-    transition: 0.3s;
+  transform: scale(95%);
+  transition: 0.3s;
 }
 
-
 input[type="checkbox"] {
-    display: none;
+  display: none;
 }
 
 .accordion {
-    margin-left: 10em;
-    margin-right: 10em;
+  margin-left: 10em;
+  margin-right: 10em;
 }
 
 .accordion-item {
-    margin-bottom: 10px;
-    font-size: 24px;
+  margin-bottom: 10px;
+  font-size: 24px;
 }
 
 .accordion-title {
-    background-color: #3c3c3c;
-    padding: 20px;
-    cursor: pointer;
-    display: flex;
-    justify-content: space-between;
+  background-color: #3c3c3c;
+  padding: 20px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
 }
 
 .accordion-content {
-    max-height: 0;
-    transition: max-height 0.2s ease-out;
-    margin-top: 3px;
-    background-color: #3c3c3c;
-    overflow: auto;
-    padding: 0 15px; 
+  max-height: 0;
+  transition: max-height 0.2s ease-out;
+  margin-top: 3px;
+  background-color: #3c3c3c;
+  overflow: auto;
+  padding: 0 15px;
 }
 
-input[type="checkbox"]:checked+.accordion-title+.accordion-content {
-    max-height: 205px;
-    padding: 15px; 
+input[type="checkbox"]:checked + .accordion-title + .accordion-content {
+  max-height: 205px;
+  padding: 15px;
 }
 
-.link-grid>ul {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(205px, 1fr));
-    gap: 10px;
-    margin-left: 7em;
-    margin-right: 7em;
+.link-grid > ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(205px, 1fr));
+  gap: 10px;
+  margin-left: 7em;
+  margin-right: 7em;
 }
 
 .accordion-plus {
-    width: 20px;
-    transition: transform 0.3s ease;
-    user-select: none;
+  width: 20px;
+  transition: transform 0.3s ease;
+  user-select: none;
 }
 
-input[type="checkbox"]:checked+.accordion-title .accordion-plus {
-    transform: rotate(45deg);
+input[type="checkbox"]:checked + .accordion-title .accordion-plus {
+  transform: rotate(45deg);
 }
 
 .container-footer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 @media (max-width: 960px) {
-    .accordion-title, .accordion-content {
-        font-size: 15px;
-    }
+  .accordion-title,
+  .accordion-content {
+    font-size: 15px;
+  }
 }
