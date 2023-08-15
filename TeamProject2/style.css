@@ -81,9 +81,13 @@ header {
   transition: 0.3s;
 }
 
-.center-wrapper {
+.center {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin-top: 200px;
 }
 
 .center h1,
@@ -95,43 +99,24 @@ header {
 
 .center h1 {
   font-weight: 700;
-  font-size: 2rem;
+  font-size: 3rem;
   font-family: "NetflixSans_W_Bd.woff2";
+  margin: 0;
 }
 
 .center p,
 .center h3 {
+  font-size: 1.5rem;
   font-weight: 400;
   font-family: "NetflixSans_W_Rg.woff2";
 }
 
-.center {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  color: rgb(255, 255, 255);
-  text-align: center;
-  margin-top: 180px;
-}
-
-.center h1 {
-  display: flex;
-  justify-content: center;
-  font-size: 3rem;
-  /* margin: 15px; */
-}
-
-.center p {
-  display: flex;
-  justify-content: center;
-  font-size: 1.5rem;
-  font-weight: 400;
-  /* margin: 10px; */
-}
 
 .center h3 {
   font-size: 1.25rem;
   line-height: 1.875rem;
+  margin: 0;
+  margin-bottom: 20px;
 }
 
 .email-form {
@@ -140,6 +125,8 @@ header {
   gap: 10px;
   position: relative;
   align-content: center;
+  margin-left: 128px;
+  margin-right: 128px;
 }
 
 .email-form p {
@@ -240,7 +227,6 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 30px;
   background: rgb(14, 27, 79);
   background: radial-gradient(
     51.39% 511.66% at 47.68% -217.91%,
@@ -253,10 +239,10 @@ header {
   color: white;
   border-radius: 4px;
   padding: 22px;
-  position: relative;
-  top: 90px;
-  margin-left: 80px;
-  margin-right: 80px;
+  position: absolute;
+  top: 630px;
+  left: 80px;
+  right: 80px;
   font-family: "NetflixSans_W_Bd.woff2";
   font-weight: 500;
 }
@@ -269,13 +255,14 @@ header {
 .banner-text-wrapper {
   display: flex;
   flex-direction: column;
+  margin: 0;
 }
 
 .banner-text-wrapper a {
   color: #448ef4;
   display: flex;
   flex-direction: row;
-  gap: 8px;
+  margin: 0;
 }
 
 .banner-text-wrapper a img {
@@ -297,8 +284,66 @@ header {
   font-family: "NetflixSans_W_Rg.woff2";
   font-size: 16px;
   line-height: 24px;
-  margin-top: 4px;
-  margin-bottom: 8px;
+  margin: 0;
+}
+
+@media (max-width: 960px) {
+.header-nav img {
+  width: 5.5625rem;
+  height: 1.5rem;
+}
+.header-nav{
+  margin-left: 32px;
+  margin-right: 32px;
+}
+.nav-r img{
+  position: relative;
+  left: 47px;
+  top: 4px;
+  width: 25px;
+  height: 25px;
+}
+.center{
+  margin-top: 120px;
+}
+.center h1{
+  font-size: 1.8rem;
+}
+.center p, .center h3{
+  font-size: 1.1rem;
+}
+.error img{
+  margin-right: 10px;
+  margin-top: 2px;
+}
+.banner{
+  top: 520px;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+.banner-text-wrapper{
+  margin-bottom: 70px;
+}
+.banner img{
+  width: 80px;
+  height: 100px;
+}
+}
+
+@media (max-width: 600px){
+.email-form{
+  width: 60px;
+  height: auto;
+ }
+ .email-form label {
+  color: rgba(255, 255, 255, 0.8);
+  position: absolute;
+  top: 14px;
+  left: -120px;
+  transition: 0.2s ease-in-out;
+  padding-top: 3px;
+}
 }
 
 .contenitore-0 {
