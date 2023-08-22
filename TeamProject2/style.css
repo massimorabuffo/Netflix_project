@@ -815,3 +815,10 @@ input[type="checkbox"]:checked + .accordion-title .accordion-plus {
     font-size: 15px;
   }
 }
+
+@media (max-width: 620px) {
+  .email-form form {
+    display: flex;
+    flex-direction: column;
+  }
+}
