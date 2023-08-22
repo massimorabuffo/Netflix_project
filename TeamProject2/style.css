@@ -141,7 +141,7 @@ header {
 .email-form p {
   font-size: 20px;
   margin-top: 100px;
-  margin-bottom: -30px;
+  margin-bottom: 30px;
 }
 
 .email-form label {
@@ -762,7 +762,7 @@ ul {
   font-size: 18px;
   margin-left: 8em;
   margin-top: 100px;
-  margin-bottom: -50px;
+  margin-bottom: 50px;
 }
 
 footer form {
