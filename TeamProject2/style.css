@@ -861,6 +861,21 @@ input[type="checkbox"]:checked + .accordion-title .accordion-plus {
   }
 }
 
+@media (max-width: 600px){
+  .email-form{
+    width: 60px;
+    height: auto;
+   }
+   .email-form label {
+    color: rgba(255, 255, 255, 0.8);
+    position: absolute;
+    top: 14px;
+    left: -120px;
+    transition: 0.2s ease-in-out;
+    padding-top: 3px;
+  }
+}
+
 @media (max-width: 620px) {
   .email-form form {
     display: flex;
