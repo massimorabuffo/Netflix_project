@@ -13,6 +13,12 @@
   src: url("./assets/NetflixSans_W_Rg.woff2");
 }
 
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 header {
   background-image: url("./assets/sfondo.png");
   background-position: center center;
@@ -20,6 +26,9 @@ header {
   background-repeat: no-repeat;
   width: 100%;
   height: 94vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .header-nav {
@@ -346,6 +355,10 @@ header {
 }
 }
 
+main{
+  margin-top: 60px;
+}
+
 .contenitore-0 {
   padding: 20px;
   display: inline-flex;
@@ -364,7 +377,7 @@ header {
   padding-left: 50px;
 }
 
-h2 {
+/* h2 {
   font-size: 60px;
   color: white;
   font-weight: bold;
@@ -377,7 +390,7 @@ p {
   display: flex;
   position: relative;
   bottom: 40px;
-}
+} */
 
 .contenitore-10 {
   position: relative;
@@ -519,20 +532,20 @@ h4 {
   padding-left: 50px;
 }
 
-h2 {
+.intestazione h2{
   font-size: 60px;
   color: white;
   font-weight: bold;
   font-family: "Netflix-Main";
 }
 
-p {
+.intestazione p {
   font-size: 26px;
   padding: 10px;
   display: flex;
   position: relative;
   bottom: 40px;
-}
+} 
 
 .contenitore-10 {
   position: relative;
@@ -652,6 +665,12 @@ h4 {
   left: 40px;
 }
 
+@media (max-width: 960px){
+  main{
+    margin-top: 90px;
+  }
+}
+
 @font-face {
   font-family: "Netflix";
   src: url(../TeamProject2/assets/NetflixSans_W_Rg.woff2) format("woff2");
@@ -662,9 +681,9 @@ h4 {
   src: url(../TeamProject2/assets/NetflixSans_W_Bd.woff2) format("woff2");
 }
 
-html {
+/* html {
   font-family: "Netflix";
-}
+} */
 
 body {
   color: white;
