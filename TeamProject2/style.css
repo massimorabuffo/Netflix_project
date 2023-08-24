@@ -681,9 +681,9 @@ h4 {
   src: url(../TeamProject2/assets/NetflixSans_W_Bd.woff2) format("woff2");
 }
 
-/* html {
+footer {
   font-family: "Netflix";
-} */
+}
 
 body {
   color: white;
