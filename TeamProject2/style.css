@@ -10,7 +10,6 @@
   }
   
   html {
-    -webkit-text-size-adjust: 100%;
     background-color: black;
   }
   
@@ -25,22 +24,22 @@
     padding: 4.5rem 0;
   }
   
+  
   .struttura-primo-e-terzo {
     margin: auto;
     max-width: calc(100% - 3rem);
     display: flex;
-    align-items: center;
+    align-items:center;
     flex-direction: column;
     text-align: center;
   }
   
+  
   .corpo-primo-e-terzo {
     text-align: center;
     flex-basis: 50%;
-    padding: 0;
-    z-index: 1;
-    width: 100%;
   }
+  
   
   .titolo-corpo {
     text-align: center;
@@ -56,24 +55,16 @@
     font-weight: 400;
   }
   
-  
-  
-  .contenitoreMedia-primo-e-terzo {
-    text-align: center;
-    flex-basis: 50%;
-    padding: 0;
-    z-index: 1;
-  }
-  
   .strutturaMedia {
       text-align: center;
       position: relative;
     }
+    
   
   .foto-sfondo {
     text-align: center;
     border: 0;
-    width: 91%;
+    width: 100%;
   }
   
   .primo-video {
@@ -89,14 +80,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
   }
-  
-  video {
-    text-align: center;
-    display: inline-block;
-    vertical-align: baseline;
-  }
-  
-  
+
   .barra {
     border: 5px rgb(35, 35, 35) solid;
     width: 100%;
@@ -113,32 +97,24 @@
     max-width: calc(100% - 4rem);
   }
   
+  
   .corpo-secondo-e-quarto {
     text-align: center;
     flex-basis: 50%;
-    padding: 0;
-    z-index: 1;
-    width: 100%;
+   
   }
-  
-  .contenitoreMedia-secondo-e-quarto {
-    text-align: center;
-    flex-basis: 50%;
-    padding: 0;
-    z-index: 1;
-  }
-  
+
   .secondo-video {
     text-align: center;
     z-index: -1;
     overflow: hidden;
     width: 100%;
     height: 100%;
-    max-width: 57%;
+    max-width: 64%;
     max-height: 47%;
     position: absolute;
     top: 34%;
-    left: 50%;
+    left: 49%;
     transform: translate(-50%, -50%);
   }
   
@@ -172,40 +148,27 @@
   }
   
   .contenitore-immagine-stranger {
-    text-align: center;
     margin: 0 1rem 0 0;
-    flex-grow: 0;
-    flex-shrink: 0;
   }
   
+  
   .immagine-stranger {
-    text-align: center;
-    border: 0;
     height: 3rem;
   }
   
   .corpo-barra-stranger {
-    -webkit-text-size-adjust: 100%;
-    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
-      sans-serif;
-    color: rgb(255, 255, 255);
-    letter-spacing: 0 !important;
     text-align: left;
-    -webkit-box-flex: 1;
     flex-grow: 1;
     flex-shrink: 1;
     margin: 0.3rem 0;
   }
   
   .titolo-barra-stranger {
-    text-align: left;
-    color: rgb(255, 255, 255);
-    font-weight: 500;
+    font-weight: 600;
     font-size: 0.875rem;
   }
   
   .download-barra-stranger {
-    text-align: left;
     font-size: 0.75rem;
     font-weight: 400;
     color: #0071eb;
@@ -215,23 +178,15 @@
     text-align: center;
     width: 3rem;
     height: 3rem;
-    outline: 2px solid rgb(0, 0, 0);
-    outline-offset: -2px;
     display: block;
     background: url("https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif")
       center center no-repeat;
     background-size: 100%;
-    content: "";
-    -webkit-box-flex: 0;
-    flex-grow: 0;
-    flex-shrink: 0;
+    
   }
   
   @media screen and (min-width: 600px) {
-    .contenitore-globale {
-      min-height: auto;
-      padding: 4.5rem 0;
-    }
+    
     .struttura-primo-e-terzo {
       max-width: calc(100% - 4rem);
     }
@@ -258,10 +213,7 @@
   }
   
   @media screen and (min-width: 960px) {
-    .contenitore-globale {
-      min-height: auto;
-      padding: 4.5rem 0;
-    }
+    
     .struttura-primo-e-terzo {
       flex-direction: row;
       max-width: calc(100% - 4rem);
@@ -305,7 +257,3 @@
       height: 3.75rem;
     }
   }
-  
-
-
-/*Devo finire di verificare se possono esserci miglioramenti nel codice */
