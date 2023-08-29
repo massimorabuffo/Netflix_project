@@ -359,62 +359,71 @@ main{
   margin-top: 60px;
 }
 
-.contenitore-0 {
-  padding: 20px;
-  display: inline-flex;
-  max-width: 100%;
-  min-height: auto;
-  padding: 1rem 0;
-}
-
-.intestazione {
-  color: white;
-  display: block;
-  margin: 57px;
-  display: block;
+.contenitore-globale {
   position: relative;
-  top: 0px;
-  padding-left: 50px;
-}
-
-/* h2 {
-  font-size: 60px;
-  color: white;
-  font-weight: bold;
-  font-family: "Netflix";
-}
-
-p {
-  font-size: 26px;
-  padding: 10px;
   display: flex;
-  position: relative;
-  bottom: 40px;
-} */
-
-.contenitore-10 {
-  position: relative;
-  right: 50px;
-  -webkit-flex-basis: 50%;
-  -ms-flex-preferred-size: 50%;
-  flex-basis: 50%;
-  padding: 0;
-  z-index: 1;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+  box-sizing: border-box;
+  min-height: auto;
+  padding: 4.5rem 0;
 }
 
-.set-tv {
+
+.struttura-primo-e-terzo {
+  margin: auto;
+  max-width: calc(100% - 3rem);
+  display: flex;
+  align-items:center;
+  flex-direction: column;
+  text-align: center;
+}
+
+
+.corpo-primo-e-terzo {
+  text-align: center;
+  flex-basis: 50%;
+}
+
+
+.titolo-corpo {
+  text-align: center;
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.paragrafo-corpo {
+  text-align: center;
+  margin: 1rem 0 0;
+  font-size: 1.125rem;
+  font-weight: 400;
+}
+
+.strutturaMedia {
+    text-align: center;
+    position: relative;
+  }
+  
+
+.foto-sfondo {
+  text-align: center;
+  border: 0;
+  width: 100%;
+}
+
+.primo-video {
+  text-align: center;
   z-index: -1;
   overflow: hidden;
   width: 100%;
   height: 100%;
-  max-width: 90%;
-  max-height: 60%;
+  max-width: 73%;
+  max-height: 54%;
   position: absolute;
-  top: 49%;
-  left: 58%;
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
+  top: 46%;
+  left: 50%;
   transform: translate(-50%, -50%);
 }
 
@@ -423,254 +432,177 @@ p {
   width: 100%;
 }
 
-.contenitore-20 {
-  position: relative;
-  -webkit-flex-basis: 50%;
-  -ms-flex-preferred-size: 50%;
-  flex-basis: 50%;
-  padding: 0;
-  z-index: 1;
+/* Secondo */
+
+.struttura-secondo-e-quarto {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  max-width: calc(100% - 4rem);
 }
 
-.set-tablet {
+
+.corpo-secondo-e-quarto {
+  text-align: center;
+  flex-basis: 50%;
+ 
+}
+
+.secondo-video {
+  text-align: center;
   z-index: -1;
   overflow: hidden;
   width: 100%;
   height: 100%;
-  max-width: 63%;
-  max-height: 55%;
+  max-width: 64%;
+  max-height: 47%;
   position: absolute;
-  top: 38%;
-  left: 48%;
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
+  top: 34%;
+  left: 49%;
   transform: translate(-50%, -50%);
 }
 
-.contenitore-30 {
-  position: relative;
-  right: 50px;
+audio,
+canvas,
+progress,
+video {
+  text-align: center;
+  display: inline-block;
+  vertical-align: baseline;
 }
 
-.contenitore-cellulare {
+.barra-download {
+  text-align: center;
   overflow: hidden;
   position: absolute;
   left: 50%;
   bottom: 8%;
   transform: translateX(-50%);
+  margin: 0 auto;
   background: rgb(0, 0, 0);
   display: flex;
   align-items: center;
-  width: 300px;
-  height: 100px;
+  width: 60%;
+  min-width: 15rem;
   padding: 0.25rem 0.65rem;
   border: 2px solid rgba(128, 128, 128, 0.7);
+  box-shadow: 0 0 2em 0 rgb(0, 0, 0);
   border-radius: 0.75rem;
-}
-
-.stranger {
-  width: 50px;
-}
-
-.photo-stranger {
-  width: 50px;
-}
-
-.stranger-things {
-  text-align: left;
-  padding-top: 48px;
-  position: relative;
-  left: 5px;
-}
-
-h4 {
-  position: relative;
-  color: rgb(255, 255, 255);
-  font-weight: 500;
-  position: relative;
-  left: 11px;
-  bottom: 5px;
-}
-
-#download {
-  font-size: 15px;
-  color: #0071eb;
-}
-
-.icon {
-  width: 3rem;
-  height: 3rem;
-  display: block;
-  background: url(https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif)
-    center center no-repeat;
-  -webkit-background-size: 100%;
-  background-size: 100%;
-  position: relative;
-  left: 40px;
-}
-@font-face {
-  font-family: "Netflix-Main";
-  src: url(./assets/NetflixSans_W_Bd.woff2) format("woff2");
-}
-
-.contenitore-0 {
-  padding: 20px;
-  display: inline-flex;
-  max-width: 100%;
-  min-height: auto;
-  padding: 1rem 0;
-}
-
-.intestazione {
-  color: white;
-  display: block;
-  margin: 57px;
-  display: block;
-  position: relative;
-  top: 0px;
-  padding-left: 50px;
-}
-
-.intestazione h2{
-  font-size: 60px;
-  color: white;
-  font-weight: bold;
-  font-family: "Netflix-Main";
-}
-
-.intestazione p {
-  font-size: 26px;
-  padding: 10px;
-  display: flex;
-  position: relative;
-  bottom: 40px;
-} 
-
-.contenitore-10 {
-  position: relative;
-  right: 50px;
-  -webkit-flex-basis: 50%;
-  -ms-flex-preferred-size: 50%;
-  flex-basis: 50%;
-  padding: 0;
   z-index: 1;
 }
 
-.set-tv {
-  z-index: -1;
-  overflow: hidden;
-  width: 100%;
-  height: 100%;
-  max-width: 90%;
-  max-height: 60%;
-  position: absolute;
-  top: 49%;
-  left: 58%;
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+.contenitore-immagine-stranger {
+  margin: 0 1rem 0 0;
 }
 
-.barra {
-  border: 5px rgb(35, 35, 35) solid;
-  width: 100%;
+
+.immagine-stranger {
+  height: 3rem;
 }
 
-.contenitore-20 {
-  position: relative;
-  -webkit-flex-basis: 50%;
-  -ms-flex-preferred-size: 50%;
-  flex-basis: 50%;
-  padding: 0;
-  z-index: 1;
-}
-
-.set-tablet {
-  z-index: -1;
-  overflow: hidden;
-  width: 100%;
-  height: 100%;
-  max-width: 63%;
-  max-height: 55%;
-  position: absolute;
-  top: 38%;
-  left: 48%;
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-}
-
-.contenitore-30 {
-  position: relative;
-  right: 50px;
-}
-
-.contenitore-cellulare {
-  overflow: hidden;
-  position: absolute;
-  left: 50%;
-  bottom: 8%;
-  transform: translateX(-50%);
-  background: rgb(0, 0, 0);
-  display: flex;
-  align-items: center;
-  width: 300px;
-  height: 100px;
-  padding: 0.25rem 0.65rem;
-  border: 2px solid rgba(128, 128, 128, 0.7);
-  border-radius: 0.75rem;
-}
-
-.stranger {
-  width: 50px;
-}
-
-.photo-stranger {
-  width: 50px;
-}
-
-.stranger-things {
+.corpo-barra-stranger {
   text-align: left;
-  padding-top: 48px;
-  position: relative;
-  left: 5px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  margin: 0.3rem 0;
 }
 
-h4 {
-  position: relative;
-  color: rgb(255, 255, 255);
-  font-weight: 500;
-  position: relative;
-  left: 11px;
-  bottom: 5px;
+.titolo-barra-stranger {
+  font-weight: 600;
+  font-size: 0.875rem;
 }
 
-#download {
-  font-size: 15px;
+.download-barra-stranger {
+  font-size: 0.75rem;
+  font-weight: 400;
   color: #0071eb;
 }
 
-.icon {
+.barra-caricamento {
+  text-align: center;
   width: 3rem;
   height: 3rem;
   display: block;
-  background: url(https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif)
+  background: url("https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif")
     center center no-repeat;
-  -webkit-background-size: 100%;
   background-size: 100%;
-  position: relative;
-  left: 40px;
+  
 }
 
-@media (max-width: 960px){
-  main{
-    margin-top: 90px;
+@media screen and (min-width: 600px) {
+  
+  .struttura-primo-e-terzo {
+    max-width: calc(100% - 4rem);
+  }
+  .corpo-primo-e-terzo {
+    text-align: left;
+    padding-right: 0.375rem;
+  }
+  .barra-download {
+    padding: 0.5rem 0.75rem;
+    width: 50%;
+  }
+  .immagine-stranger {
+    height: 4.5rem;
+  }
+  .titolo-barra-stranger {
+    font-size: 1rem;
+  }
+  .download-barra-stranger {
+    font-size: 0.875rem;
+  }
+  .barra-caricamento {
+    height: 3.75rem;
   }
 }
 
+@media screen and (min-width: 960px) {
+  
+  .struttura-primo-e-terzo {
+    flex-direction: row;
+    max-width: calc(100% - 4rem);
+  }
+  .corpo-primo-e-terzo {
+    text-align: left;
+    padding-right: 0.375rem;
+  }
+  .titolo-corpo {
+    text-align: left;
+    font-size: 3rem;
+    font-weight: 900;
+  }
+  .paragrafo-corpo {
+    text-align: left;
+    font-size: 1.5rem;
+  }
+  .struttura-secondo-e-quarto {
+    flex-direction: row-reverse;
+  }
+  .corpo-secondo-e-quarto {
+    text-align: left;
+    padding-left: 0.375rem;
+  }
+  .contenitoreMedia-secondo-e-quarto {
+    padding-right: 0.375rem;
+  }
+  .barra-download {
+    width: 50%;
+  }
+  .immagine-stranger {
+    height: 4.5rem;
+  }
+  .titolo-barra-stranger {
+    font-size: 1rem;
+  }
+  .download-barra-stranger {
+    font-size: 0.875rem;
+  }
+  .barra-caricamento {
+    height: 3.75rem;
+  }
+}
 @font-face {
   font-family: "Netflix";
   src: url(../TeamProject2/assets/NetflixSans_W_Rg.woff2) format("woff2");
@@ -901,3 +833,258 @@ input[type="checkbox"]:checked + .accordion-title .accordion-plus {
     flex-direction: column;
   }
 }
+  * {
+    letter-spacing: 0 !important;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+      sans-serif;
+    color: rgb(255, 255, 255);
+  }
+  
+  html {
+    background-color: black;
+  }
+  
+  .contenitore-globale {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    box-sizing: border-box;
+    min-height: auto;
+    padding: 4.5rem 0;
+  }
+  
+  
+  .struttura-primo-e-terzo {
+    margin: auto;
+    max-width: calc(100% - 3rem);
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  
+  .corpo-primo-e-terzo {
+    text-align: center;
+    flex-basis: 50%;
+  }
+  
+  
+  .titolo-corpo {
+    text-align: center;
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  
+  .paragrafo-corpo {
+    text-align: center;
+    margin: 1rem 0 0;
+    font-size: 1.125rem;
+    font-weight: 400;
+  }
+  
+  .strutturaMedia {
+      text-align: center;
+      position: relative;
+    }
+    
+  
+  .foto-sfondo {
+    text-align: center;
+    border: 0;
+    width: 100%;
+  }
+  
+  .primo-video {
+    text-align: center;
+    z-index: -1;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    max-width: 73%;
+    max-height: 54%;
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .barra {
+    border: 5px rgb(35, 35, 35) solid;
+    width: 100%;
+  }
+  
+  /* Secondo */
+  
+  .struttura-secondo-e-quarto {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    max-width: calc(100% - 4rem);
+  }
+  
+  
+  .corpo-secondo-e-quarto {
+    text-align: center;
+    flex-basis: 50%;
+   
+  }
+
+  .secondo-video {
+    text-align: center;
+    z-index: -1;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    max-width: 64%;
+    max-height: 47%;
+    position: absolute;
+    top: 34%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+  }
+  
+  audio,
+  canvas,
+  progress,
+  video {
+    text-align: center;
+    display: inline-block;
+    vertical-align: baseline;
+  }
+  
+  .barra-download {
+    text-align: center;
+    overflow: hidden;
+    position: absolute;
+    left: 50%;
+    bottom: 8%;
+    transform: translateX(-50%);
+    margin: 0 auto;
+    background: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    width: 60%;
+    min-width: 15rem;
+    padding: 0.25rem 0.65rem;
+    border: 2px solid rgba(128, 128, 128, 0.7);
+    box-shadow: 0 0 2em 0 rgb(0, 0, 0);
+    border-radius: 0.75rem;
+    z-index: 1;
+  }
+  
+  .contenitore-immagine-stranger {
+    margin: 0 1rem 0 0;
+  }
+  
+  
+  .immagine-stranger {
+    height: 3rem;
+  }
+  
+  .corpo-barra-stranger {
+    text-align: left;
+    flex-grow: 1;
+    flex-shrink: 1;
+    margin: 0.3rem 0;
+  }
+  
+  .titolo-barra-stranger {
+    font-weight: 600;
+    font-size: 0.875rem;
+  }
+  
+  .download-barra-stranger {
+    font-size: 0.75rem;
+    font-weight: 400;
+    color: #0071eb;
+  }
+  
+  .barra-caricamento {
+    text-align: center;
+    width: 3rem;
+    height: 3rem;
+    display: block;
+    background: url("https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif")
+      center center no-repeat;
+    background-size: 100%;
+    
+  }
+  
+  @media screen and (min-width: 600px) {
+    
+    .struttura-primo-e-terzo {
+      max-width: calc(100% - 4rem);
+    }
+    .corpo-primo-e-terzo {
+      text-align: left;
+      padding-right: 0.375rem;
+    }
+    .barra-download {
+      padding: 0.5rem 0.75rem;
+      width: 50%;
+    }
+    .immagine-stranger {
+      height: 4.5rem;
+    }
+    .titolo-barra-stranger {
+      font-size: 1rem;
+    }
+    .download-barra-stranger {
+      font-size: 0.875rem;
+    }
+    .barra-caricamento {
+      height: 3.75rem;
+    }
+  }
+  
+  @media screen and (min-width: 960px) {
+    
+    .struttura-primo-e-terzo {
+      flex-direction: row;
+      max-width: calc(100% - 4rem);
+    }
+    .corpo-primo-e-terzo {
+      text-align: left;
+      padding-right: 0.375rem;
+    }
+    .titolo-corpo {
+      text-align: left;
+      font-size: 3rem;
+      font-weight: 900;
+    }
+    .paragrafo-corpo {
+      text-align: left;
+      font-size: 1.5rem;
+    }
+    .struttura-secondo-e-quarto {
+      flex-direction: row-reverse;
+    }
+    .corpo-secondo-e-quarto {
+      text-align: left;
+      padding-left: 0.375rem;
+    }
+    .contenitoreMedia-secondo-e-quarto {
+      padding-right: 0.375rem;
+    }
+    .barra-download {
+      width: 50%;
+    }
+    .immagine-stranger {
+      height: 4.5rem;
+    }
+    .titolo-barra-stranger {
+      font-size: 1rem;
+    }
+    .download-barra-stranger {
+      font-size: 0.875rem;
+    }
+    .barra-caricamento {
+      height: 3.75rem;
+    }
+  }
