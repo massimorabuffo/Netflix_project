@@ -21,9 +21,9 @@ body {
 
 header {
   background-image: url("./assets/sfondo.png");
-  background-position: center center;
-  background-size: auto;
   background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
   width: 100%;
   height: 94vh;
   margin: 0;
