@@ -1,2 +1,2 @@
 # TeamProject2-Netflix
-Secondo esercizio di Team Project 
+Primo esercizio di Team Project 
